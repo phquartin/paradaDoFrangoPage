@@ -1,13 +1,13 @@
 import React from "react";
-import frangoAssado from "../images/frangoAssado.png";
-import arrozBranco from "../images/arrozBranco.png";
-import feijaoTropeiro from "../images/feijaoTropeiro.png";
-import batataParada from "../images/batataParada.png";
+import frangoAssado from "../images/frangoAssado.jpeg";
+import kitParada from "../images/kitParada.jpeg";
+import feijaoTropeiro from "../images/feijaoTropeiro.jpeg";
+import batataParada from "../images/batataParada.jpeg";
 
 export default function Galeria() {
     const imagens = [
         { src: frangoAssado, alt: "Frango Assado" },
-        { src: arrozBranco, alt: "Arroz Branco" },
+        { src: kitParada, alt: "Kit Parada" },
         { src: feijaoTropeiro, alt: "Feijão Tropeiro" },
         { src: batataParada, alt: "Batata Parada" },
     ];

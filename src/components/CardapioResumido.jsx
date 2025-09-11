@@ -4,12 +4,12 @@ import React from "react";
 const menuItems = [
     {
         title: "Frango Assado",
-        description: "Um delicioso frango marinado em temperos especiais, assado na brasa.",
+        description: "Um delicioso frango marinado em temperos especiais, assado na brasa. Perfeito para uma família.",
         price: "R$ 55,00",
     },
     {
         title: "Meio Frango",
-        description: "Metade do nosso suculento frango assado. Perfeito para uma refeição individual.",
+        description: "Metade do nosso suculento frango assado. Perfeito para uma refeição de um casal.",
         price: "R$ 30,00",
     },
     {

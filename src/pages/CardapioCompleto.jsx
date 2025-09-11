@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, MessageCircle } from 'lucide-react';
+import {Home} from 'lucide-react';
 
 // --- Dados do Cardápio ---
 const menuData = {

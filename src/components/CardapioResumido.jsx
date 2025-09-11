@@ -46,8 +46,8 @@ export default function CardapioResumido() {
             </div>
 
             <div className="container mx-auto px-6 relative z-10">
-                <h2 className="text-center text-4xl lg:text-5xl font-montserrat font-extrabold text-[#D83A00] mb-4">
-                    Nosso Cardápio
+                <h2 className="text-center text-4xl lg:text-4xl font-montserrat font-bold text-[#D83A00] mb-4">
+                    Cardápio
                 </h2>
                 <p className="text-center mb-12 text-lg text-gray-700 max-w-2xl mx-auto">
                     Confira alguns de nossos produtos mais deliciosos, feitos com os melhores ingredientes.

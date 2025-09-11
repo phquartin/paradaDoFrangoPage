@@ -3,7 +3,7 @@ import React from "react";
 export default function Localizacao() {
     return (
         <section id="localizacao" className="bg-yellow-50 p-8 rounded-lg shadow">
-            <h2 className="text-center text-4xl font-montserrat text-[#D83A00] mb-6">
+            <h2 className="text-center text-4xl lg:text-4xl font-montserrat font-bold text-[#D83A00] mb-4">
                 Onde nos Encontrar
             </h2>
             <div className="text-center space-y-6">

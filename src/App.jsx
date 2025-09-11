@@ -1,20 +1,23 @@
-import Header from "./components/Header.jsx";
-import CardapioResumido from "./components/CardapioResumido.jsx";
-import Galeria from "./components/Galeria.jsx";
-import Localizacao from "./components/Localizacao.jsx";
-import Footer from "./components/Footer.jsx";
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Layout from './components/Layout';
+import Home from './pages/PaginaPrincipal.jsx';
+import CardapioCompleto from './pages/CardapioCompleto';
 
 function App() {
     return (
-        <div className="font-roboto text-gray-800 bg-white">
-            <Header />
-            <main className="max-w-5xl mx-auto px-6 py-12">
-                <CardapioResumido />
-                <Galeria />
-                <Localizacao />
-            </main>
-            <Footer />
-        </div>
+        <BrowserRouter>
+            <Routes>
+                {/* Todas as rotas dentro de Layout terão o botão do WhatsApp */}
+                <Route path="/" element={<Layout />}>
+                    {/* A rota principal (/) renderiza a página Home */}
+                    <Route index element={<Home />} />
+                    {/* A rota /cardapio renderiza o cardápio completo */}
+                    <Route path="cardapio" element={<CardapioCompleto />} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
     );
 }
 

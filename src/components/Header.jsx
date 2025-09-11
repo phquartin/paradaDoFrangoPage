@@ -44,8 +44,7 @@ export default function Header() {
                     className="mx-auto mb-4 w-full max-w-[150px] sm:max-w-[180px]"
                 />
                 <h1
-                    className="text-3xl lg:text-4xl font-montserrat font-bold"
-                    style={{ color: colors.orange }}
+                    className="text-center text-4xl lg:text-6xl font-montserrat font-extrabold text-[#D83A00] mb-4"
                 >
                     Bem-vindo à Parada do Frango!
                 </h1>

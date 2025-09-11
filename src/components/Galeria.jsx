@@ -14,10 +14,10 @@ export default function Galeria() {
 
     return (
         <section id="fotos" className="mb-20">
-            <h2 className="text-center text-4xl font-montserrat text-[#D83A00] mb-4">
-                Nossa Galeria
+            <h2 className="text-center text-4xl lg:text-4xl font-montserrat font-bold text-[#D83A00] mb-4">
+                Galeria
             </h2>
-            <p className="text-center mb-10 text-lg">Confira nossos produtos</p>
+            <p className="text-center mb-10 text-lg">Veja nossos principais produtos</p>
 
             <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-4">
                 {imagens.map((img, index) => (

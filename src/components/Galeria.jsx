@@ -13,7 +13,7 @@ export default function Galeria() {
     ];
 
     return (
-        <section id="fotos" className="mb-20">
+        <section id="fotos" className="mb-20 py-10">
             <h2 className="text-center text-4xl lg:text-4xl font-montserrat font-bold text-[#D83A00] mb-4">
                 Galeria
             </h2>

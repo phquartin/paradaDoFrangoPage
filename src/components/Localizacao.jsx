@@ -21,7 +21,7 @@ export default function Localizacao() {
     const mapEmbedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d959.8000490714152!2d-47.92185563334234!3d-15.79787769882236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b005b8dd3f5%3A0x817517756e95b35b!2sParada%20do%20Frango!5e0!3m2!1spt-BR!2sbr!4v1726003259952!5m2!1spt-BR!2sbr";
 
     return (
-        <section id="localizacao" className="py-20 bg-gray-50 relative overflow-hidden">
+        <section id="localizacao" className="py-10 bg-gray-50 relative overflow-hidden">
             {/* Elementos SVG de fundo */}
             <div className="absolute top-0 right-0 -translate-y-1/3 translate-x-1/3 opacity-10 pointer-events-none">
                 <svg width="800" height="800" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">

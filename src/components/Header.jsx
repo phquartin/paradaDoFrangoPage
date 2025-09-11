@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/lojo.JPG";
+import logo from "../images/logo.JPG";
 
 export default function Header() {
     // Cores da marca para fácil referência

@@ -1,7 +1,6 @@
 import React from 'react';
 import {Home} from 'lucide-react';
 
-// --- Dados do Cardápio ---
 const menuData = {
     frangos: [
         {

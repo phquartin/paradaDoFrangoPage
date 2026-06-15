@@ -64,7 +64,7 @@ export default function Localizacao() {
                         </InfoCard>
 
                         <InfoCard icon={<Clock size={28} />} title="Horário de Funcionamento">
-                            <p>Sexta, Sábado, Domingo e Feriados <br />10:00 às 15:00</p>
+                            <p> Todos os dias <br />9:00 às 14:00</p>
                         </InfoCard>
                     </div>
 
